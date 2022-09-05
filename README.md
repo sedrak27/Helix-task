@@ -21,4 +21,20 @@ Once you have the containers up and running, you can access the web app by openi
 #### CLI
 
 Run `docker-compose run app <command-to-execute>` to execute command inside `app` container.
- 
+
+<------------------------------------------------->
+
+To be able to send the code for verification you must configurate MAIL config in the env. file like bellow
+
+MAIL_DRIVER=smtp  
+MAIL_HOST=smtp.googlemail.com  
+MAIL_PORT=465  
+MAIL_USERNAME="your mail address"  
+MAIL_PASSWORD="your mail password"  
+MAIL_ENCRYPTION=tls  
+MAIL_FROM_ADDRESS="your mail address"  
+MAIL_FROM_NAME="${APP_NAME}"
+
+You must fill your mail address  
+and password.  
+You can generate the password by following this video https://www.youtube.com/watch?v=qk8nJmIRbxk
