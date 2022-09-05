@@ -1,0 +1,19 @@
+
+
+{
+
+    "name": "php_practice/sedrak_tsarukyan",
+    "description": "PHP_practice",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sedrak Tsarukyan",
+            "email": "sedrak.tsarukyan99@gmail.com"
+        }
+    ],
+
+    "require": {
+        "robmorgan/phinx": "^0.12.10"
+    }
+}

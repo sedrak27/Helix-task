@@ -1,0 +1,20 @@
+{
+  "name": "test/test",
+  "description": "Test project",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "John Smith"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.0",
+    "testuserforpackagist/testprojectforpackagist": "^0",
+    "ext-pdo": "*",
+    "laravel/sanctum": "^2.15"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
